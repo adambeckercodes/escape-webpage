@@ -50,6 +50,7 @@ button {
   background: none;
   padding: 0;
   margin: 0;
+  cursor: pointer;
 }
 
 .container {
@@ -140,6 +141,24 @@ button {
   color: rgba(255, 255, 255, 0.63);
   font-family: "Oxygen";
   font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* BLOG NAVIGATION */
+
+.blog-nav__container {
+  padding: 22px 296px;
+}
+
+.blog__nav .nav__list {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog__nav .nav__btn {
+  color: #768088;
+  font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
